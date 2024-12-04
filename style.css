@@ -8,7 +8,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Inter" sans-serif;
+  font-family: 'Inter' sans-serif;
   transition-duration: 200ms;
 }
 
@@ -87,11 +87,11 @@ section {
 
 .imgContainer {
     border-radius: 100%;
-    max-width: 72px;
+    max-width: 114px;
     overflow: hidden;
 }
 
-.imgContainer {
+.imgContainer img {
     width: 100%;
     aspect-ratio: 1/1;
     object-fit: cover;
@@ -144,7 +144,7 @@ section {
 .projectContainer {
     display: flex;
     flex-direction: column;
-    gap: 32px;
+    gap: 48px;
 }
 
 .headerText {
@@ -161,6 +161,7 @@ section {
     display: flex;
     flex-direction: column;
     gap: 14px;
+    flex: 1;
 }
 
 .projectItem>div:last-child {
